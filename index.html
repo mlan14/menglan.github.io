@@ -8,10 +8,21 @@
 <body>
 	<h1>My Awesome Website</h1>
 	<a-scene background="color: #FAFAFA">
-      <a-box position="1 2 -4" rotation="0 45 0" scale="1 1 1" color="green" shadow="">
-      </a-box>
-      <a-box position="1.84081 1.9159 -4" rotation="2.729570936003242 45.312940185716286 86.21525126451549" scale="0.75 1.78 1.63" color="green" shadow="" material="" geometry="">
-      </a-box>
+      <a-torus position="0.69484 5.55089 -8.57862" scale="0.5 0.5 0.5" radius="1.25" color="#228B22" metalness="0" wireframe="false" material="color: #f5cfd5" geometry=""></a-torus>
+      <a-torus position="-4 5.56884 -6.95762" scale="0.33874 0.33874 0.17424" radius="1.25" color="#228B22" metalness="0" wireframe="false" material="" geometry=""></a-torus>
+      <a-icosahedron position="-6.55526 1.74633 -5.88935" scale="0.3 0.3 0.3" radius="1.25" color="#EFCE10" metalness="0" wireframe="false" material="color: #4fb7b7" geometry=""></a-icosahedron>
+      <a-icosahedron position="-4 2.98839 -5" scale="0.5 0.5 0.5" radius="1.25" color="#EFCE10" metalness="0" wireframe="false" material="color: #97646c" geometry=""></a-icosahedron>
+      <a-torus-knot position="6.42304 5.96607 -5" scale="-0.28 0.32 0.5" radius="1.25" color="#229F6E" metalness="0" wireframe="false" material="" geometry="" rotation="0 0.79 0"></a-torus-knot>
+      <a-sphere position="-0.85704 1.74747 -5.78522" scale="0.14165 0.14165 0.14165" radius="1.25" color="#1C55C6" metalness=".25" wireframe="false" material="color: #beac15" geometry="">
+      </a-sphere>
+      <a-sphere position="-3.24038 2.38145 -6.38554" scale="0.5 0.5 0.5" radius="1.25" color="#1C55C6" metalness=".25" wireframe="false" material="color: #6ebe59" geometry="">
+      </a-sphere>
+      <a-plane position="0.07553 0.01877 -3.7553" scale="12.30008 18.24896 6.4131" radius="1.25" color="#ACD62A" metalness="0" wireframe="false" rotation="-90.00021045914971 87.26720177637569 0" material="color: #7f4e19; emissive: #5d3108" geometry=""></a-plane>
+       <a-assets>
+        <img id="my-image" src="img/bg.jpeg">
+      </a-assets>
+      <a-curvedimage src="#my-image" height="10.0" radius="12" theta-length="120"
+      rotation="0 100 0" scale="0.8 0.8 0.8"></a-curvedimage>
 
       <a-sphere position="-4 1 -5" scale=".5 .5 .5" radius="1.25" color="green" metalness="0" wireframe="false">
       </a-sphere>
@@ -37,15 +48,6 @@
       <a-torus position="-4 -1 -5" scale="0.5 0.5 0.5" radius="1.25" color="#228B22" metalness="0" wireframe="false"></a-torus>
       <a-torus-knot position="-2 -1 -5" scale="0.5 0.5 0.5" radius="1.25" color="#229F6E" metalness="0" wireframe="false"></a-torus-knot>
       <a-triangle position="0 -1 -5" scale="" radius="1.25" color="#20B2AA" metalness="0" wireframe="false"></a-triangle> 
-
-      <a-assets>
-        <img id="my-image" src="img/bg.jpeg">
-      </a-assets>
-      <a-curvedimage src="#my-image" height="10.0" radius="12" theta-length="120"
-      rotation="0 100 0" scale="0.8 0.8 0.8"></a-curvedimage>
-
-
-      
     </a-scene>
 
    
